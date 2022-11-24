@@ -54,3 +54,7 @@ def generate_qna_prompt(question):
         Q: What is the square root of banana?\nA: Unknown\n\nQ: How does a telescope work?\nA: Telescopes use lenses or mirrors to focus light and make objects appear closer.\n\n\
         Q: Where were the 1992 Olympics held?\nA: The 1992 Olympics were held in Barcelona, Spain.\n\n\
         Q: How many squigs are in a bonk?\nA: Unknown\n\nQ:" + question + "\nA:"
+
+if __name__ == '__main__':
+    print("envfile: " + os.getenv("OPENAI_API_KEY"))
+    app.run(port = 8080, host = '127.0.0.1', debug = True)
