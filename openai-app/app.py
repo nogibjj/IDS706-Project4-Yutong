@@ -1,5 +1,9 @@
-import os
+#!/usr/bin/env python
+"""
+Flask app for answering question with OpenAI API.
+"""
 
+import os
 import openai
 from flask import Flask, redirect, render_template, request, url_for
 
@@ -56,5 +60,4 @@ def generate_qna_prompt(question):
         Q: How many squigs are in a bonk?\nA: Unknown\n\nQ:" + question + "\nA:"
 
 if __name__ == '__main__':
-    print("envfile: " + os.getenv("OPENAI_API_KEY"))
-    app.run(port = 8080, host = '127.0.0.1', debug = True)
+    app.run()

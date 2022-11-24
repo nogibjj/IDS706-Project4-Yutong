@@ -6,7 +6,9 @@ https://beta.openai.com/playground/p/default-qa?model=text-davinci-002
 
 ### Usage
 
-TBA
+Build docker image `docker build -t ids706-proj4 .`
+
+Run in docker locally `docker run -p 5000:5000 -t -i ids706-proj4`
 
 Project #4: Continuous Delivery of Flask/FastAPI Data Engineering API on AWS
 
