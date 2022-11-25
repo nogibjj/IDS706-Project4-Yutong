@@ -9,7 +9,7 @@ COPY ./openai-app /app
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT [ "flask"]
+ENTRYPOINT [ "flask" ]
 CMD [ "run", "--host", "0.0.0.0" ]
 
 # FROM python:3.10
