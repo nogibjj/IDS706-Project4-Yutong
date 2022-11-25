@@ -11,7 +11,7 @@ This is the repo for IDS706 course project 4.
 ![Diagram](images/diagram.png)
 
 ## Example
-*Enter "What is target?" in web app*
+#### Enter "What is target?" in web app
 
 JSON payload shows below:
 ![example1](images/json_target.png)
@@ -19,7 +19,7 @@ JSON payload shows below:
 Web app would show:
 ![example1](images/example_target.png)
 
-*Enter "Who are you?" in web app*
+#### Enter "Who are you?" in web app
 
 JSON payload shows below:
 ![example2](images/json_you.png)
