@@ -1,1 +1,4 @@
+plint
+black
+pytest
 flask
