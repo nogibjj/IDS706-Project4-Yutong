@@ -1,4 +1,4 @@
-plint
+pylint
 black
 pytest
 flask
